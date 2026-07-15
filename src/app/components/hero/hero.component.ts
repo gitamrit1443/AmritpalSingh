@@ -4,7 +4,6 @@ import {
   signal,
   ChangeDetectionStrategy,
 } from '@angular/core';
-import { NgStyle } from '@angular/common';
 import { PORTFOLIO } from '../../core/data/portfolio.data';
 
 /**
@@ -19,7 +18,6 @@ import { PORTFOLIO } from '../../core/data/portfolio.data';
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [NgStyle],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section
