@@ -200,10 +200,10 @@ export const PORTFOLIO: PortfolioData = {
   experience: [
     {
       id:          1,
-      company:     'CodeSoft Solutions',
+      company:     'Cynoteck Technology Solutions',
       role:        'Back End Developer Intern',
       period:      'Feb 2026 — May 2026',
-      location:    'Greater Delhi Area',
+      location:    'Dehradun',
       description: 'Worked on production-level backend services consumed by client-facing Angular modules, with focus on REST API delivery, SQL Server optimization, and clean full-stack integration.',
       achievements: [
         'Developed RESTful API endpoints using ASP.NET Core Web API and C# for client-facing modules.',
