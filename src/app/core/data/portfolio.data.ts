@@ -134,15 +134,19 @@ export const PORTFOLIO: PortfolioData = {
     },
     {
       name:   'Backend',
-      skills: ['ASP.NET Core', 'ASP.NET Core Web API', 'C#', 'FastAPI', 'REST APIs', 'SignalR', 'Hangfire', 'Clean Architecture'],
+      skills: ['ASP.NET Core', 'ASP.NET Core Web API', 'C#', 'EF Core', 'LINQ', 'ADO.NET', 'FastAPI', 'REST APIs', 'SignalR', 'Hangfire'],
     },
     {
       name:   'Database & Cloud',
-      skills: ['SQL Server', 'PostgreSQL', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Vercel', 'Railway'],
+      skills: ['SQL Server', 'PostgreSQL', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Railway', 'Vercel'],
     },
     {
       name:   'Tools & Languages',
       skills: ['Git', 'GitHub', 'Postman', 'Python', 'C++', 'RAG Pipeline', 'HuggingFace BERT', 'JWT', 'RBAC'],
+    },
+    {
+      name:   'Architecture',
+      skills: ['Clean Architecture', 'Design Patterns', 'System Design', 'Microservices'],
     },
   ],
 
