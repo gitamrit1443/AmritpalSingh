@@ -125,7 +125,7 @@ export const PORTFOLIO: PortfolioData = {
   skillCategories: [
     {
       name:   'Frontend',
-      skills: ['Angular 20/21', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'DaisyUI', 'HTML5', 'CSS3', 'SCSS', 'Angular Signals'],
+      skills: ['Angular 19/20', 'TypeScript', 'JavaScript', 'Bootstrap', 'DaisyUI', 'HTML5', 'CSS3', 'SCSS', 'Angular Signals'],
     },
     {
       name:   'Backend',
@@ -133,7 +133,7 @@ export const PORTFOLIO: PortfolioData = {
     },
     {
       name:   'Database & Cloud',
-      skills: ['SQL Server', 'PostgreSQL', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Railway', 'Vercel'],
+      skills: ['Microsoft SQL Server', 'PostgreSQL', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Railway', 'Vercel'],
     },
     {
       name:   'Tools & Languages',
@@ -141,7 +141,7 @@ export const PORTFOLIO: PortfolioData = {
     },
     {
       name:   'Architecture',
-      skills: ['Clean Architecture', 'Design Patterns', 'System Design', 'Microservices'],
+      skills: ['Clean Architecture', 'Design Patterns', 'System Design'],
     },
   ],
 
@@ -201,7 +201,7 @@ export const PORTFOLIO: PortfolioData = {
       id:          1,
       company:     'VMR Vision',
       role:        'Software Engineer',
-      period:      'Jan 2026 — Present',
+      period:      'Jan 2026 — Sep2026',
       location:    'Dehradun',
       description: '.NET Developer specializing in scalable CRM applications, automated web scraping with Playwright, and SQL Server database optimization',
       achievements:[
