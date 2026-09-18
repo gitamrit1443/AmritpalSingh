@@ -106,11 +106,11 @@ export const PORTFOLIO: PortfolioData = {
       },
       {
         label: 'Security & Auth Systems',
-        description: 'Built JWT authentication, TOTP flows, RBAC, and role-specific user journeys for production-style applications.',
+        description: 'Built JWT authentication, RBAC, and role-specific user journeys for production-style applications.',
       },
       {
         label: 'Database-Backed Workflows',
-        description: 'Optimized SQL Server queries and stored procedures, improving API response time by around 30% on high-traffic workflows.',
+        description: 'Stored procedures, T-SQL',
       },
     ],
     availability: 'Open to SDE / Full Stack Developer roles',
@@ -125,23 +125,19 @@ export const PORTFOLIO: PortfolioData = {
   skillCategories: [
     {
       name:   'Frontend',
-      skills: ['Angular 19/20', 'TypeScript', 'JavaScript', 'Bootstrap', 'DaisyUI', 'HTML5', 'CSS3', 'SCSS', 'Angular Signals'],
+      skills: ['Angular 19/20', 'TypeScript', 'JavaScript', 'Bootstrap', 'DaisyUI', 'HTML5', 'CSS3', 'Tailwind Css', 'Angular Signals'],
     },
     {
       name:   'Backend',
-      skills: ['ASP.NET Core', 'ASP.NET Core Web API', 'C#', 'EF Core', 'LINQ', 'ADO.NET', 'FastAPI', 'REST APIs', 'SignalR', 'Hangfire'],
+      skills: ['ASP.NET Core', 'ASP.NET Core Web API', 'C#', 'EF Core', 'LINQ', 'ADO.NET', 'REST APIs', 'SignalR', 'Hangfire'],
     },
     {
       name:   'Database & Cloud',
-      skills: ['Microsoft SQL Server', 'PostgreSQL', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Railway', 'Vercel'],
+      skills: ['Microsoft SQL Server', 'Entity Framework Core', 'Stored Procedures', 'Azure', 'Railway', 'Vercel'],
     },
     {
       name:   'Tools & Languages',
-      skills: ['Git', 'GitHub', 'Postman', 'Python', 'JWT', 'RBAC'],
-    },
-    {
-      name:   'Architecture',
-      skills: ['Clean Architecture', 'Design Patterns', 'System Design'],
+      skills: ['Git', 'GitHub', 'Postman', 'JWT', 'RBAC'],
     },
   ],
 
@@ -152,7 +148,7 @@ export const PORTFOLIO: PortfolioData = {
       title:       'HireFlow',
       category:    'Recruitment Pipeline SaaS',
       year:        '2026',
-      description: 'A full-stack hiring platform with Kanban pipeline, recruiter/candidate access, interview scheduling, analytics dashboard, seeded demo data, JWT + TOTP authentication, RBAC, Hangfire background jobs, and clean backend structure.',
+      description: 'A full-stack hiring platform with Kanban pipeline, recruiter/candidate access, interview scheduling, analytics dashboard, seeded demo data, JWT authentication, RBAC, Hangfire background jobs, and clean backend structure.',
       tech:        ['ASP.NET Core 8', 'EF Core', 'SQL Server', 'Angular 20', 'Hangfire', 'Tailwind CSS'],
       image:       '/assets/images/HireFlow.png',
       liveUrl:     'https://hire-flow-ashen.vercel.app',
@@ -165,7 +161,7 @@ export const PORTFOLIO: PortfolioData = {
       category:    'AI Document Intelligence Platform',
       year:        '2026',
       description: 'Document intelligence workflow for uploads, summaries, semantic search, and Q&A over uploaded content using embeddings, retrieval-based response flow, FastAPI services, and Angular dashboards.',
-      tech:        ['FastAPI', 'HuggingFace BERT', 'Angular 20', 'ASP.NET Core', 'SQL Server', 'RAG'],
+      tech:        ['FastAPI', 'Angular 20', 'PostgreSql'],
       image:       '/assets/images/InsightFlow.png',
       liveUrl:     'https://insightflow-asp.netlify.app',
       githubUrl:   github,
@@ -177,7 +173,7 @@ export const PORTFOLIO: PortfolioData = {
       category:    'Incident Management Platform',
       year:        '2024',
       description: 'PagerDuty-inspired incident workflow with real-time alerts, on-call notifications, escalation tracking, SQL Server-backed incident records, SignalR live updates, and Hangfire scheduled tasks.',
-      tech:        ['ASP.NET Core', 'Razor Pages', 'SQL Server', 'SignalR', 'Hangfire'],
+      tech:        ['ASP.NET Core', 'MVC', 'SQL Server', 'SignalR', 'Hangfire'],
       image:       '/assets/images/SignalOps.png',
       liveUrl:     'https://signalops-f8zn.onrender.com',
       githubUrl:   github,
@@ -189,7 +185,7 @@ export const PORTFOLIO: PortfolioData = {
       category:    'Premium Pancake Ordering SPA',
       year:        '2025',
       description: 'A polished Angular ordering SPA with cinematic hero section, interactive menu builder, cart flow, responsive layouts, premium UI sections, Angular Signals, Tailwind/SCSS styling, and scroll reveal interactions.',
-      tech:        ['Angular 21', 'TypeScript', 'Tailwind CSS', 'SCSS', 'Angular Signals'],
+      tech:        ['ASP.NET Core', 'MVC', 'SQL Server','TailwindCss'],
       image:       '/assets/images/MiniMunch.png',
       liveUrl:     github,
       githubUrl:   github,
@@ -200,12 +196,12 @@ export const PORTFOLIO: PortfolioData = {
     {
       id:          1,
       company:     'VMR Vision',
-      role:        'Software Engineer',
-      period:      'Jan 2026 — Sep2026',
+      role:        'Associate Aspnet Developer',
+      period:      'Dec 2025 — Aug2026',
       location:    'Dehradun',
       description: '.NET Developer specializing in scalable CRM applications, automated web scraping with Playwright, and SQL Server database optimization',
       achievements:[
-         'Designed, developed, and maintained full-stack CRM applications using C# and ASP.NET.',
+         'Designed, Developed, and Maintained full-stack CRM applications using C# and ASP.NET.',
          'Engineered robust web scrapers for automated data extraction utilizing C# and Playwright.',
          'Architected SQL Server databases and optimized backend performance using Stored Procedures.',
       ],
@@ -213,14 +209,15 @@ export const PORTFOLIO: PortfolioData = {
     {
       id:          2,
       company:     'Cynoteck Technology Solutions',
-      role:        'Back End Developer Intern',
+      role:        'Software Developer Intern',
       period:      'Feb 2025 — May 2025',
       location:    'Dehradun',
-      description: 'Worked on production-level backend services consumed by client-facing Angular modules, with focus on REST API delivery, SQL Server optimization, and clean full-stack integration.',
+      description: 'Focus on REST API delivery, and clean full-stack integration.',
       achievements: [
-        'Developed RESTful API endpoints using ASP.NET Core Web API and C# for client-facing modules.',
-        'Optimized Microsoft SQL Server queries and stored procedures, improving API response time by around 30% on high-traffic workflows.',
-        'Integrated backend services with Angular modules, participated in Agile sprints and code reviews, and followed clean coding practices.',
+        'Built and integrated RESTful endpoints in for client-facing modules, applying OOP and clean-code practices to strengthen service reliability and frontend integration',
+        'Manage and Developed Webapps',
+        'Optimizied SQL  queries',
+        'Connected backend services contributed through Agile sprints, code reviews, debugging, and cross-functional collaboration',
       ],
     },
     {
@@ -240,7 +237,6 @@ export const PORTFOLIO: PortfolioData = {
 
   achievements: [
     { id: 1, value: '4',     label: 'Featured Projects',       description: 'SaaS, AI document intelligence, incident management, and premium SPA builds' },
-    { id: 2, value: '30%',   label: 'API Response Improvement', description: 'SQL Server query and stored-procedure optimization during internship' },
     { id: 3, value: '2026',  label: 'CSE Graduate',             description: 'B.Tech Computer Science & Engineering, Grade A' },
     { id: 4, value: 'Azure', label: 'Cloud Certified',          description: 'Azure Cloud Services certification and deployment-focused learning' },
   ],
@@ -248,17 +244,17 @@ export const PORTFOLIO: PortfolioData = {
   testimonials: [
     {
       id:      1,
-      quote:   'Built a recruitment pipeline SaaS with Kanban workflows, candidate/recruiter access, JWT + TOTP authentication, RBAC, Hangfire jobs, and an Angular 20 UI.',
+      quote:   'Built a recruitment pipeline SaaS with Kanban workflows, candidate/recruiter access, JWT authentication, RBAC, Hangfire jobs, and an Angular 20 UI.',
       author:  'HireFlow',
       role:    'Recruitment SaaS',
       company: 'ASP.NET Core + Angular',
     },
     {
       id:      2,
-      quote:   'Developed document upload, summary, semantic search, and Q&A workflows using FastAPI, HuggingFace BERT, embeddings, and a retrieval-based response flow.',
+      quote:   'Developed document upload, summary, semantic search, and Q&A workflows using FastAPI',
       author:  'InsightFlow',
       role:    'AI Document Intelligence',
-      company: 'Flask ',
+      company: 'Fastapi ',
     },
     {
       id:      3,
